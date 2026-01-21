@@ -1,0 +1,81 @@
+
+gitignore
+# ==========================================
+# NODE.JS
+# ==========================================
+
+# Dependências
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# AMBIENTE
+# ==========================================
+
+.env
+.env.test
+.env.local
+.env.production
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ==========================================
+# IDEs e EDITORES
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# ==========================================
+# BUILD e CACHE
+# ==========================================
+
+dist/
+build/
+.cache/
+.temp/
+
+# ==========================================
+# TEMPORÁRIOS
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# ==========================================
+# TESTES
+# ==========================================
+
+coverage/
+.nyc_output/
